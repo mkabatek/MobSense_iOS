@@ -1,7 +1,7 @@
 # MobSense_iOS
 
 * [MobSense iOS Demo App](https://itunes.apple.com/us/app/mobsense/id1123464493?ls=1&mt=8)
-* [mobsense.net](https://mobsensse.net)
+* [mobsense.net](https://mobsense.net)
 
 ####Known Issues:  v0.0.1
 * Port doesnt do anything, assumed to run on port 80
