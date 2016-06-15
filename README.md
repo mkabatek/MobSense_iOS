@@ -26,5 +26,6 @@
 
 ####Installation & Setup
 
+* pod install
 * Build and run in Xcode
 * You must populate your Facebook, Twitter, and Google API key/secret
