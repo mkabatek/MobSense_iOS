@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006CA7289952B00BA727BEF299ECE8BD /* NXOAuth2Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DD1F05BA564548C95F0FBAA6295F801 /* NXOAuth2Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03BE06C9D2F74CA66DF3AFB93599A8FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */; };
+		0992373E828319E84CF32CA572BA3877 /* NXOAuth2AccountStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FA39DC0A50739F42D888BB741B7EF5A6 /* NXOAuth2AccountStore.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		198F8CB2EB0FD8A76BB8F827216B6B77 /* NXOAuth2PostBodyStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 465F1992B387AA31E2C27B523EA37108 /* NXOAuth2PostBodyStream.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1A378C41991F5219E9959E3A250E9A03 /* MMDrawerVisualState.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A2456EE412401DF041F9DE362619A49 /* MMDrawerVisualState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC5AACA78908ED08FB968E551C9E907 /* NSData+NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 388E0D2B334A651FE820687ECA5CBDFD /* NSData+NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D56CA0D7139A4028B93CA7E074AEDDF /* NXOAuth2ConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D6D638C95C8E12BD68A53C4AF0063D /* NXOAuth2ConnectionDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC05C99BA48029B527FC7482BBA87D5 /* NXOAuth2Account.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FE1089C75B53BF2305C14F72BA4E87 /* NXOAuth2Account.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29586E6E3C8D6F62D117FA1684C911AF /* NXOAuth2Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 495A39B7BAE0A3E6332B174D2337F825 /* NXOAuth2Request.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2F603E30DC05C00DA356E6A85631BB91 /* NSURL+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 506FDE9E33000091E56B0AD41DBED8C6 /* NSURL+NXOAuth2.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		356A80F6F402A35347937BD666718717 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */; };
+		3AE3D4CD9960B3471E2E445470807E92 /* NXOAuth2FileStreamWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = D43050D1DE208EA039F2B5A80037267D /* NXOAuth2FileStreamWrapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		43E283C47E79FE66D338B3049661CEE8 /* NXOAuth2Client-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 059F5445B6338193535244BB6B4391E7 /* NXOAuth2Client-dummy.m */; };
+		43F67162BDB78DF5A6C73F9A13998557 /* Pods-MobSense-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C580471B4EA456696E102F6C882AA46E /* Pods-MobSense-dummy.m */; };
+		44F191740E27CCCE532A4BF5E62318C4 /* NXOAuth2FileStreamWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 37D1A65511EA281A1A73D84E6F15A9A3 /* NXOAuth2FileStreamWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45995A1C9596908132B5FC22E41B6821 /* NXOAuth2Request.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B53ACEF7719070C3ACEF3543D544078 /* NXOAuth2Request.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496F81C0BF46852BDB2FF6DD0613A705 /* NSData+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03FC6A4D3B385BB68AF19EBC43D8CC /* NSData+NXOAuth2.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		529A38EA9243FD532B23CE6731C41062 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 157149803A09E9F3C4AE32950323FEB4 /* MMDrawerBarButtonItem.m */; };
+		64A7141483D4B0EEBA163A376FBA02BE /* MMDrawerController+Storyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 51EB83E13C078D2DFC2EDAC3BBB1BA0D /* MMDrawerController+Storyboard.m */; };
+		67B47E511DCA3A06974DBCFE2B65D012 /* NXOAuth2Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = FB56FEC2B4AD65E39586704540436CA7 /* NXOAuth2Connection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6B90CF1457514AE8D0945B49D8D0F5D7 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF264E82FE2C4181DB4672F3E618B9 /* UIViewController+MMDrawerController.m */; };
+		6DCAAD460D5EDE19E9C93E52945F9D4B /* MMDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D55CBC7024A3559B475876544400C44B /* MMDrawerController-dummy.m */; };
+		706A26834B840DE5BD0267E5B501981C /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DDF5A5B05B12C27D9C2A8D206F6E21 /* MMDrawerVisualState.m */; };
+		876B49C130BA2283A8A226A296C950F3 /* NXOAuth2Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 026EF06C826530112C151CDF18BA5E13 /* NXOAuth2Account.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8E0647A6DE92E993472445D8A9A31410 /* NXOAuth2TrustDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D53557C125B978C8A98288843162D25 /* NXOAuth2TrustDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9182B36F359CE9F54AD3CD24BE93CBC5 /* NSString+NXOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B91F07E8E5AF17AAC050081A133AE6 /* NSString+NXOAuth2.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		947575549E0193C1A5A2379EA9D95D46 /* MMDrawerController+Subclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 8738EA17601900C439E1F4E4AC887413 /* MMDrawerController+Subclass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		969242845CEC4CE6B42B4FBC4FEC88F2 /* MMDrawerController+Storyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 89CDED2B02841888043C3F9625E10EA0 /* MMDrawerController+Storyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		984DD4BA68A399F50B9D7849E72385F8 /* UIViewController+MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9564B1051A65A0CFA406FEA312172406 /* UIViewController+MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9992CAEFD98C62677EEDC83827AFD8BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */; };
+		9A7F170BE65EFFD69B5986DB55C1920A /* MMDrawerBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E08B3A654484C0BC2DAB9FA0C990BAD /* MMDrawerBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EB5C021CD0890A0F1A01E3BF4093E2B /* NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 894CFA3762AF08B9A63D9AC7972DEBA0 /* NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2CA9E6B2BDCF663BE218A1FE2F00269 /* NXOAuth2PostBodyPart.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DDFFFB2B83E2E1DB961B7498AA99251 /* NXOAuth2PostBodyPart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A464A7711317466CE3622FFF75923DD4 /* NXOAuth2AccessToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DE96D47731F5006DF5FB78C2D934ACA2 /* NXOAuth2AccessToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB7A92BC0570218D33CB991B74709C56 /* NXOAuth2PostBodyPart.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EBD396126B23356F1D450E96137CFBD /* NXOAuth2PostBodyPart.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B23A00A5ED73210D3BC7AA7F21EA9B1C /* NSURL+NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 63861E1632D1C8B248F957D6ED6152AE /* NSURL+NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF167054DA36AA2EE9A4F79A13C89BB1 /* MMDrawerController+Storyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 431AB88FF3B2FC8EA05647A44AFDCB79 /* MMDrawerController+Storyboard-dummy.m */; };
+		C35FB79A52A53C86EC1AEE2BF99712CF /* NXOAuth2AccountStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 538871A921C2C6FAA2A4414327F1AA8D /* NXOAuth2AccountStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC229FCDA668D0077958EB1B48C03D7 /* NXOAuth2Client.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C99402773C958F29938184076C2033 /* NXOAuth2Client.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE6E719958B27AF4F0065438A8A5B05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A644D2F375656AA6942F09C9A08C1F5 /* Security.framework */; };
+		D27B1021ED5A281761C33D770E16A58D /* NXOAuth2PostBodyStream.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DFB11D99441C4BDD766BCE4E9BCCAC /* NXOAuth2PostBodyStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48FA58A38ADC8CAF616EF9A472581E9 /* NXOAuth2Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 10F3E1EA78B1593F8B49DA4B3FE7DAE3 /* NXOAuth2Connection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6DF5A496FD858DE4036ACE9A912C895 /* NXOAuth2Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D79CF658C196656EE430E5C1982BBA /* NXOAuth2Client.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D92DF11741B749D85D376CFCBDDD6780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */; };
+		DB3B2657B0DBB2EC8F74D1A602582051 /* NSString+NXOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D49EEBE92CF9473F2EA2EF65BE4D6A0 /* NSString+NXOAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC259A831AAD609D68A368E16228D4F5 /* NXOAuth2ClientDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D19BDD5B3E822A6BDA08ABCC236EEF9C /* NXOAuth2ClientDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEC10EB5F93A97639486F1BDA39CD973 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DF9824D62CF46F64078D7892E55AEB4 /* QuartzCore.framework */; };
+		E66FF19936CA6EF7FF4BF3E13EE0D7D7 /* NXOAuth2Account+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 943DCBDC6B4399D4EB6E902DF5D9D41C /* NXOAuth2Account+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61B50E72560137C1BAB08BB5E0F704B /* NXOAuth2AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF8DAF7DF255E481F1977813C3B5AC6 /* NXOAuth2AccessToken.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F733730F57E794BCFB4B18DC00E2FF9B /* MMDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9036D96D4C7F58B1758AB3AD73AEAE1 /* MMDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80352DA4E8B5745EFBBAE0A619D62CD /* NXOAuth2Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = B2FC11AFC9587829D38353BA8D89FFBC /* NXOAuth2Constants.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FB8782C801FCC735C4CAED59846EFACF /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 269FFF8108A3FA9434EF940EE78CA2B3 /* MMDrawerController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42F932F34D70D64F199E285E19E5B9F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E85AABA23B5E543708FA4E03130F831;
+			remoteInfo = NXOAuth2Client;
+		};
+		7C42088E81B36A287557DA335355855C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C83DC0B4881D58A9555C25FA8291CA5F;
+			remoteInfo = "MMDrawerController+Storyboard";
+		};
+		7F6B1D28AE2F7C601F17AF0763B9BF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550F7EEAEEA17E3F92C873912E23B01C;
+			remoteInfo = MMDrawerController;
+		};
+		BD579DDD628954F955745D8DC77FDE3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 550F7EEAEEA17E3F92C873912E23B01C;
+			remoteInfo = MMDrawerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AF275DA5ABB7EB0BC166B8BA6C1FA0 /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		026EF06C826530112C151CDF18BA5E13 /* NXOAuth2Account.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2Account.m; path = Sources/OAuth2Client/NXOAuth2Account.m; sourceTree = "<group>"; };
+		059F5445B6338193535244BB6B4391E7 /* NXOAuth2Client-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NXOAuth2Client-dummy.m"; sourceTree = "<group>"; };
+		0A2456EE412401DF041F9DE362619A49 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerVisualState.h; path = MMDrawerController/MMDrawerVisualState.h; sourceTree = "<group>"; };
+		0A644D2F375656AA6942F09C9A08C1F5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		0BA85B7D264B7E37D8A26E9EB2D6A64D /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		0D476009F6DFA65E3E9759EC9D8F6163 /* NXOAuth2Client.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NXOAuth2Client.xcconfig; sourceTree = "<group>"; };
+		0DD1F05BA564548C95F0FBAA6295F801 /* NXOAuth2Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2Constants.h; path = Sources/OAuth2Client/NXOAuth2Constants.h; sourceTree = "<group>"; };
+		10036C85D4C7C3D82DF4489ABA00A8D8 /* Pods-MobSense-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MobSense-acknowledgements.plist"; sourceTree = "<group>"; };
+		10F3E1EA78B1593F8B49DA4B3FE7DAE3 /* NXOAuth2Connection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2Connection.h; path = Sources/OAuth2Client/NXOAuth2Connection.h; sourceTree = "<group>"; };
+		12AB95FB9232D97223D30F46E4FB269F /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Headers/Public/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		157149803A09E9F3C4AE32950323FEB4 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerBarButtonItem.m; path = MMDrawerController/MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		1970D9107EBD7A1369BEE971205014B2 /* libPods-MobSense.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobSense.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B53ACEF7719070C3ACEF3543D544078 /* NXOAuth2Request.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2Request.h; path = Sources/OAuth2Client/NXOAuth2Request.h; sourceTree = "<group>"; };
+		1C3BEB204F57A6BD54F52E7A64CD2FA7 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Headers/Public/GAITrackedViewController.h; sourceTree = "<group>"; };
+		1D53557C125B978C8A98288843162D25 /* NXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2TrustDelegate.h; path = Sources/OAuth2Client/NXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
+		1EBD396126B23356F1D450E96137CFBD /* NXOAuth2PostBodyPart.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2PostBodyPart.m; path = Sources/OAuth2Client/NXOAuth2PostBodyPart.m; sourceTree = "<group>"; };
+		269FFF8108A3FA9434EF940EE78CA2B3 /* MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerController.m; path = MMDrawerController/MMDrawerController.m; sourceTree = "<group>"; };
+		2ACF32A0C4C417FA680113821AAF4458 /* MMDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		3659D7AEC7AF0EFCFFBAAD1730EDCBE7 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Headers/GGLAnalytics/Public/Analytics.h; sourceTree = "<group>"; };
+		37D1A65511EA281A1A73D84E6F15A9A3 /* NXOAuth2FileStreamWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2FileStreamWrapper.h; path = Sources/OAuth2Client/NXOAuth2FileStreamWrapper.h; sourceTree = "<group>"; };
+		388E0D2B334A651FE820687ECA5CBDFD /* NSData+NXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NXOAuth2.h"; path = "Sources/NSData+NXOAuth2.h"; sourceTree = "<group>"; };
+		3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40793E3AFA0798786622F4EDD2FA9637 /* Pods-MobSense-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobSense-resources.sh"; sourceTree = "<group>"; };
+		42D12731C4BFBFDAD8C62AFD51235FE6 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Headers/Public/GAITracker.h; sourceTree = "<group>"; };
+		431AB88FF3B2FC8EA05647A44AFDCB79 /* MMDrawerController+Storyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard-dummy.m"; sourceTree = "<group>"; };
+		465F1992B387AA31E2C27B523EA37108 /* NXOAuth2PostBodyStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2PostBodyStream.m; path = Sources/OAuth2Client/NXOAuth2PostBodyStream.m; sourceTree = "<group>"; };
+		47CF264E82FE2C4181DB4672F3E618B9 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+MMDrawerController.m"; path = "MMDrawerController/UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		495A39B7BAE0A3E6332B174D2337F825 /* NXOAuth2Request.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2Request.m; path = Sources/OAuth2Client/NXOAuth2Request.m; sourceTree = "<group>"; };
+		4E08B3A654484C0BC2DAB9FA0C990BAD /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerBarButtonItem.h; path = MMDrawerController/MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		506FDE9E33000091E56B0AD41DBED8C6 /* NSURL+NXOAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+NXOAuth2.m"; path = "Sources/NSURL+NXOAuth2.m"; sourceTree = "<group>"; };
+		51B91F07E8E5AF17AAC050081A133AE6 /* NSString+NXOAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+NXOAuth2.m"; path = "Sources/NSString+NXOAuth2.m"; sourceTree = "<group>"; };
+		51EB83E13C078D2DFC2EDAC3BBB1BA0D /* MMDrawerController+Storyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController+Storyboard.m"; sourceTree = "<group>"; };
+		52D79CF658C196656EE430E5C1982BBA /* NXOAuth2Client.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2Client.m; path = Sources/OAuth2Client/NXOAuth2Client.m; sourceTree = "<group>"; };
+		538871A921C2C6FAA2A4414327F1AA8D /* NXOAuth2AccountStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2AccountStore.h; path = Sources/OAuth2Client/NXOAuth2AccountStore.h; sourceTree = "<group>"; };
+		5BA99CE1D1F21C270D6F3CF56331ADDA /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		63861E1632D1C8B248F957D6ED6152AE /* NSURL+NXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+NXOAuth2.h"; path = "Sources/NSURL+NXOAuth2.h"; sourceTree = "<group>"; };
+		68C99402773C958F29938184076C2033 /* NXOAuth2Client.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2Client.h; path = Sources/OAuth2Client/NXOAuth2Client.h; sourceTree = "<group>"; };
+		6D49EEBE92CF9473F2EA2EF65BE4D6A0 /* NSString+NXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NXOAuth2.h"; path = "Sources/NSString+NXOAuth2.h"; sourceTree = "<group>"; };
+		6E6A888DEFDA22DCED59107380310120 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		7421C37D39C7943C39D70AD538B3B35F /* libNXOAuth2Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNXOAuth2Client.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDFFFB2B83E2E1DB961B7498AA99251 /* NXOAuth2PostBodyPart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2PostBodyPart.h; path = Sources/OAuth2Client/NXOAuth2PostBodyPart.h; sourceTree = "<group>"; };
+		7DF9824D62CF46F64078D7892E55AEB4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7E41204F9D695ECD4B7A3E0B05674862 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Headers/Public/GAILogger.h; sourceTree = "<group>"; };
+		7FE9F5EC12506ADFA7055ADE88A0DA2F /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		804AD3BBC80C893895C984AAA8677EC4 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		80A091EA34D836F591D7FA291ED28B3E /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Headers/Public/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		8738EA17601900C439E1F4E4AC887413 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MMDrawerController+Subclass.h"; path = "MMDrawerController/MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		8744745D776979A1040AABCEF629FE5D /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		894CFA3762AF08B9A63D9AC7972DEBA0 /* NXOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2.h; path = Sources/OAuth2Client/NXOAuth2.h; sourceTree = "<group>"; };
+		89CDED2B02841888043C3F9625E10EA0 /* MMDrawerController+Storyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard.h"; sourceTree = "<group>"; };
+		8C5470720F8393926FB1F1FE51FC49D1 /* NXOAuth2Client-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXOAuth2Client-prefix.pch"; sourceTree = "<group>"; };
+		8EC54881CC89F303AA65566312F7A3EF /* libMMDrawerController+Storyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libMMDrawerController+Storyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		908CD85A601EE4211F0A99D5830C5E7F /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Headers/Public/GAI.h; sourceTree = "<group>"; };
+		92D6D638C95C8E12BD68A53C4AF0063D /* NXOAuth2ConnectionDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2ConnectionDelegate.h; path = Sources/OAuth2Client/NXOAuth2ConnectionDelegate.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943DCBDC6B4399D4EB6E902DF5D9D41C /* NXOAuth2Account+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NXOAuth2Account+Private.h"; sourceTree = "<group>"; };
+		9550F57E5B67884E59F6AE07F7A90EC7 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Headers/Public/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		9564B1051A65A0CFA406FEA312172406 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+MMDrawerController.h"; path = "MMDrawerController/UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		A384FEB7A02184D667C6854C0CD23912 /* GGLContext+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+Analytics.h"; path = "Headers/GGLAnalytics/Public/GGLContext+Analytics.h"; sourceTree = "<group>"; };
+		A74196D15B39FC72BF243A7D9B14FEBB /* Pods-MobSense-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MobSense-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7714A20C816790D7DC794931D8FBD72 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		A9036D96D4C7F58B1758AB3AD73AEAE1 /* MMDrawerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDrawerController.h; path = MMDrawerController/MMDrawerController.h; sourceTree = "<group>"; };
+		AC03FC6A4D3B385BB68AF19EBC43D8CC /* NSData+NXOAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+NXOAuth2.m"; path = "Sources/NSData+NXOAuth2.m"; sourceTree = "<group>"; };
+		AC1D5968432A504497C13EF431FB34AF /* MMDrawerController+Storyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Storyboard-prefix.pch"; sourceTree = "<group>"; };
+		ACF8DAF7DF255E481F1977813C3B5AC6 /* NXOAuth2AccessToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2AccessToken.m; path = Sources/OAuth2Client/NXOAuth2AccessToken.m; sourceTree = "<group>"; };
+		B17B38BCF54CE0512B87104EC489A853 /* Pods-MobSense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobSense.debug.xcconfig"; sourceTree = "<group>"; };
+		B2FC11AFC9587829D38353BA8D89FFBC /* NXOAuth2Constants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2Constants.m; path = Sources/OAuth2Client/NXOAuth2Constants.m; sourceTree = "<group>"; };
+		B4DDF5A5B05B12C27D9C2A8D206F6E21 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDrawerVisualState.m; path = MMDrawerController/MMDrawerVisualState.m; sourceTree = "<group>"; };
+		C13022E9D4494324091A2BCC10710A60 /* MMDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMDrawerController.xcconfig; sourceTree = "<group>"; };
+		C580471B4EA456696E102F6C882AA46E /* Pods-MobSense-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MobSense-dummy.m"; sourceTree = "<group>"; };
+		D19BDD5B3E822A6BDA08ABCC236EEF9C /* NXOAuth2ClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2ClientDelegate.h; path = Sources/OAuth2Client/NXOAuth2ClientDelegate.h; sourceTree = "<group>"; };
+		D42C86143508F36B973FD1D36C179D5E /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Headers/Public/GAIFields.h; sourceTree = "<group>"; };
+		D43050D1DE208EA039F2B5A80037267D /* NXOAuth2FileStreamWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2FileStreamWrapper.m; path = Sources/OAuth2Client/NXOAuth2FileStreamWrapper.m; sourceTree = "<group>"; };
+		D49F37993AC42FB0DA99897F2FF5C6D1 /* libGGLAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLAnalytics.a; path = Libraries/libGGLAnalytics.a; sourceTree = "<group>"; };
+		D55CBC7024A3559B475876544400C44B /* MMDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawerController-dummy.m"; sourceTree = "<group>"; };
+		DBD1783BB77D49256B458854EC387ECE /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		DE96D47731F5006DF5FB78C2D934ACA2 /* NXOAuth2AccessToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2AccessToken.h; path = Sources/OAuth2Client/NXOAuth2AccessToken.h; sourceTree = "<group>"; };
+		ECC2557A7D7186B33EBE2DDF0B91C98A /* Pods-MobSense-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MobSense-frameworks.sh"; sourceTree = "<group>"; };
+		EF4F5A60ACAE85D0FB40DE122972A544 /* MMDrawerController+Storyboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MMDrawerController+Storyboard.xcconfig"; sourceTree = "<group>"; };
+		EF69349EEAB6109E0A218C465FB2DD7E /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Headers/Public/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		EF69B3AE369E44155B61B671A6E14183 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Headers/Public/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		F0FE1089C75B53BF2305C14F72BA4E87 /* NXOAuth2Account.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2Account.h; path = Sources/OAuth2Client/NXOAuth2Account.h; sourceTree = "<group>"; };
+		F739253D72E9E07F0D157D3F84E11413 /* libMMDrawerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMDrawerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9DFB11D99441C4BDD766BCE4E9BCCAC /* NXOAuth2PostBodyStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NXOAuth2PostBodyStream.h; path = Sources/OAuth2Client/NXOAuth2PostBodyStream.h; sourceTree = "<group>"; };
+		FA39DC0A50739F42D888BB741B7EF5A6 /* NXOAuth2AccountStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2AccountStore.m; path = Sources/OAuth2Client/NXOAuth2AccountStore.m; sourceTree = "<group>"; };
+		FB56FEC2B4AD65E39586704540436CA7 /* NXOAuth2Connection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NXOAuth2Connection.m; path = Sources/OAuth2Client/NXOAuth2Connection.m; sourceTree = "<group>"; };
+		FDDF2D7EB3ABEA43D380D1C6430AC351 /* Pods-MobSense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MobSense.release.xcconfig"; sourceTree = "<group>"; };
+		FE3E0E4EF54097654BE23F03CBE78CB1 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE98135A552FC71BF990DB90C060E208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356A80F6F402A35347937BD666718717 /* Foundation.framework in Frameworks */,
+				CDE6E719958B27AF4F0065438A8A5B05 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C81EA9947F4EA889C80E0571F51007C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BE06C9D2F74CA66DF3AFB93599A8FF /* Foundation.framework in Frameworks */,
+				DEC10EB5F93A97639486F1BDA39CD973 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91A3DB6ECF03D261C6FDF9FBE80F94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92DF11741B749D85D376CFCBDDD6780 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB07A9B553C787BDB063390BF3439713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9992CAEFD98C62677EEDC83827AFD8BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0233C25A4AAF4DCD1AC74448934018A5 /* Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				8738EA17601900C439E1F4E4AC887413 /* MMDrawerController+Subclass.h */,
+			);
+			name = Subclass;
+			sourceTree = "<group>";
+		};
+		10A68DE7ED15CCA4CFF807F71E18D472 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C13022E9D4494324091A2BCC10710A60 /* MMDrawerController.xcconfig */,
+				D55CBC7024A3559B475876544400C44B /* MMDrawerController-dummy.m */,
+				2ACF32A0C4C417FA680113821AAF4458 /* MMDrawerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawerController";
+			sourceTree = "<group>";
+		};
+		11ECED7821237CA55738FADCE519D595 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D476009F6DFA65E3E9759EC9D8F6163 /* NXOAuth2Client.xcconfig */,
+				059F5445B6338193535244BB6B4391E7 /* NXOAuth2Client-dummy.m */,
+				8C5470720F8393926FB1F1FE51FC49D1 /* NXOAuth2Client-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NXOAuth2Client";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABD95A26F57E03FB38E55E73452C56C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14DA727E2AFB04C7871F83BA80350322 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				C3444E866EE93FA6292879F54D85F335 /* Core */,
+				3154BABCF170E760861B8594A99C5DD8 /* MMDrawerBarButtonItem */,
+				21CF9FBCF033D36E90F78B57E6F4DFBD /* MMDrawerVisualStates */,
+				0233C25A4AAF4DCD1AC74448934018A5 /* Subclass */,
+				10A68DE7ED15CCA4CFF807F71E18D472 /* Support Files */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		17324193D3D23B8634A65A04B9F6F77C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				804AD3BBC80C893895C984AAA8677EC4 /* Core.h */,
+				5BA99CE1D1F21C270D6F3CF56331ADDA /* GGLConfiguration.h */,
+				0BA85B7D264B7E37D8A26E9EB2D6A64D /* GGLContext.h */,
+				8744745D776979A1040AABCEF629FE5D /* GGLErrorCode.h */,
+				DD6793BB67A84DE4163E9ADB67D65286 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		1A1177DC7C27CD718D592B4AE17B6271 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				3659D7AEC7AF0EFCFFBAAD1730EDCBE7 /* Analytics.h */,
+				A384FEB7A02184D667C6854C0CD23912 /* GGLContext+Analytics.h */,
+				8A4184BC7191835F544C16D3F0E547A0 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		21CF9FBCF033D36E90F78B57E6F4DFBD /* MMDrawerVisualStates */ = {
+			isa = PBXGroup;
+			children = (
+				0A2456EE412401DF041F9DE362619A49 /* MMDrawerVisualState.h */,
+				B4DDF5A5B05B12C27D9C2A8D206F6E21 /* MMDrawerVisualState.m */,
+			);
+			name = MMDrawerVisualStates;
+			sourceTree = "<group>";
+		};
+		3154BABCF170E760861B8594A99C5DD8 /* MMDrawerBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				4E08B3A654484C0BC2DAB9FA0C990BAD /* MMDrawerBarButtonItem.h */,
+				157149803A09E9F3C4AE32950323FEB4 /* MMDrawerBarButtonItem.m */,
+			);
+			name = MMDrawerBarButtonItem;
+			sourceTree = "<group>";
+		};
+		42B959265C29A6C401E94FD7625343F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE3E0E4EF54097654BE23F03CBE78CB1 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		475AC583116925455EF5D862CE08170F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE9F5EC12506ADFA7055ADE88A0DA2F /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F31155E716F86CE95FB62C692A89A90 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				908CD85A601EE4211F0A99D5830C5E7F /* GAI.h */,
+				EF69349EEAB6109E0A218C465FB2DD7E /* GAIDictionaryBuilder.h */,
+				9550F57E5B67884E59F6AE07F7A90EC7 /* GAIEcommerceFields.h */,
+				EF69B3AE369E44155B61B671A6E14183 /* GAIEcommerceProduct.h */,
+				12AB95FB9232D97223D30F46E4FB269F /* GAIEcommerceProductAction.h */,
+				80A091EA34D836F591D7FA291ED28B3E /* GAIEcommercePromotion.h */,
+				D42C86143508F36B973FD1D36C179D5E /* GAIFields.h */,
+				7E41204F9D695ECD4B7A3E0B05674862 /* GAILogger.h */,
+				1C3BEB204F57A6BD54F52E7A64CD2FA7 /* GAITrackedViewController.h */,
+				42D12731C4BFBFDAD8C62AFD51235FE6 /* GAITracker.h */,
+				42B959265C29A6C401E94FD7625343F8 /* Frameworks */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		656F894318D64DD89A4905DE3E65A8F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7714A20C816790D7DC794931D8FBD72 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67F8CAB6BAE03ABF128E0276E23E0903 /* NXOAuth2Client */ = {
+			isa = PBXGroup;
+			children = (
+				388E0D2B334A651FE820687ECA5CBDFD /* NSData+NXOAuth2.h */,
+				AC03FC6A4D3B385BB68AF19EBC43D8CC /* NSData+NXOAuth2.m */,
+				6D49EEBE92CF9473F2EA2EF65BE4D6A0 /* NSString+NXOAuth2.h */,
+				51B91F07E8E5AF17AAC050081A133AE6 /* NSString+NXOAuth2.m */,
+				63861E1632D1C8B248F957D6ED6152AE /* NSURL+NXOAuth2.h */,
+				506FDE9E33000091E56B0AD41DBED8C6 /* NSURL+NXOAuth2.m */,
+				894CFA3762AF08B9A63D9AC7972DEBA0 /* NXOAuth2.h */,
+				DE96D47731F5006DF5FB78C2D934ACA2 /* NXOAuth2AccessToken.h */,
+				ACF8DAF7DF255E481F1977813C3B5AC6 /* NXOAuth2AccessToken.m */,
+				F0FE1089C75B53BF2305C14F72BA4E87 /* NXOAuth2Account.h */,
+				026EF06C826530112C151CDF18BA5E13 /* NXOAuth2Account.m */,
+				943DCBDC6B4399D4EB6E902DF5D9D41C /* NXOAuth2Account+Private.h */,
+				538871A921C2C6FAA2A4414327F1AA8D /* NXOAuth2AccountStore.h */,
+				FA39DC0A50739F42D888BB741B7EF5A6 /* NXOAuth2AccountStore.m */,
+				68C99402773C958F29938184076C2033 /* NXOAuth2Client.h */,
+				52D79CF658C196656EE430E5C1982BBA /* NXOAuth2Client.m */,
+				D19BDD5B3E822A6BDA08ABCC236EEF9C /* NXOAuth2ClientDelegate.h */,
+				10F3E1EA78B1593F8B49DA4B3FE7DAE3 /* NXOAuth2Connection.h */,
+				FB56FEC2B4AD65E39586704540436CA7 /* NXOAuth2Connection.m */,
+				92D6D638C95C8E12BD68A53C4AF0063D /* NXOAuth2ConnectionDelegate.h */,
+				0DD1F05BA564548C95F0FBAA6295F801 /* NXOAuth2Constants.h */,
+				B2FC11AFC9587829D38353BA8D89FFBC /* NXOAuth2Constants.m */,
+				37D1A65511EA281A1A73D84E6F15A9A3 /* NXOAuth2FileStreamWrapper.h */,
+				D43050D1DE208EA039F2B5A80037267D /* NXOAuth2FileStreamWrapper.m */,
+				7DDFFFB2B83E2E1DB961B7498AA99251 /* NXOAuth2PostBodyPart.h */,
+				1EBD396126B23356F1D450E96137CFBD /* NXOAuth2PostBodyPart.m */,
+				F9DFB11D99441C4BDD766BCE4E9BCCAC /* NXOAuth2PostBodyStream.h */,
+				465F1992B387AA31E2C27B523EA37108 /* NXOAuth2PostBodyStream.m */,
+				1B53ACEF7719070C3ACEF3543D544078 /* NXOAuth2Request.h */,
+				495A39B7BAE0A3E6332B174D2337F825 /* NXOAuth2Request.m */,
+				1D53557C125B978C8A98288843162D25 /* NXOAuth2TrustDelegate.h */,
+				11ECED7821237CA55738FADCE519D595 /* Support Files */,
+			);
+			path = NXOAuth2Client;
+			sourceTree = "<group>";
+		};
+		6ABD95A26F57E03FB38E55E73452C56C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D09C0A5F1C77674E5B5B68E92A67AE3 /* Foundation.framework */,
+				7DF9824D62CF46F64078D7892E55AEB4 /* QuartzCore.framework */,
+				0A644D2F375656AA6942F09C9A08C1F5 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				BEFEB2169206CF05120B939A1047C5E5 /* Pods */,
+				AD045CAAEF9380DDDC33DFFA51B625DD /* Products */,
+				A41334D0A67CBC9E847609A6BD750AE2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A4184BC7191835F544C16D3F0E547A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49F37993AC42FB0DA99897F2FF5C6D1 /* libGGLAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF9233B7F1184F779B8C8BA09F793DA /* MMDrawerController+Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				89CDED2B02841888043C3F9625E10EA0 /* MMDrawerController+Storyboard.h */,
+				51EB83E13C078D2DFC2EDAC3BBB1BA0D /* MMDrawerController+Storyboard.m */,
+				E1449E52B47A3B977294F9502631F3F0 /* Support Files */,
+			);
+			path = "MMDrawerController+Storyboard";
+			sourceTree = "<group>";
+		};
+		A41334D0A67CBC9E847609A6BD750AE2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDD5F191B3876846DB4499E244143E61 /* Pods-MobSense */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD045CAAEF9380DDDC33DFFA51B625DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F739253D72E9E07F0D157D3F84E11413 /* libMMDrawerController.a */,
+				8EC54881CC89F303AA65566312F7A3EF /* libMMDrawerController+Storyboard.a */,
+				7421C37D39C7943C39D70AD538B3B35F /* libNXOAuth2Client.a */,
+				1970D9107EBD7A1369BEE971205014B2 /* libPods-MobSense.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B284E7D7BA23B0889EFFF2E2963C55B1 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				656F894318D64DD89A4905DE3E65A8F3 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		B8E013AED4F04264944D7DD87A141CC1 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				475AC583116925455EF5D862CE08170F /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		BEFEB2169206CF05120B939A1047C5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCBFA9ED0D501187626FCFE051143D82 /* Google */,
+				CEA9751C579FFECCE74102491EC28749 /* Google-Mobile-Ads-SDK */,
+				4F31155E716F86CE95FB62C692A89A90 /* GoogleAnalytics */,
+				DB45968566D96A89683144872F8AAE8F /* GoogleNetworkingUtilities */,
+				B8E013AED4F04264944D7DD87A141CC1 /* GoogleSymbolUtilities */,
+				B284E7D7BA23B0889EFFF2E2963C55B1 /* GoogleUtilities */,
+				14DA727E2AFB04C7871F83BA80350322 /* MMDrawerController */,
+				8CF9233B7F1184F779B8C8BA09F793DA /* MMDrawerController+Storyboard */,
+				67F8CAB6BAE03ABF128E0276E23E0903 /* NXOAuth2Client */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C3444E866EE93FA6292879F54D85F335 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A9036D96D4C7F58B1758AB3AD73AEAE1 /* MMDrawerController.h */,
+				269FFF8108A3FA9434EF940EE78CA2B3 /* MMDrawerController.m */,
+				9564B1051A65A0CFA406FEA312172406 /* UIViewController+MMDrawerController.h */,
+				47CF264E82FE2C4181DB4672F3E618B9 /* UIViewController+MMDrawerController.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CEA9751C579FFECCE74102491EC28749 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDB8E0BA70918614F7A7CE30B9F1AB10 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		DB45968566D96A89683144872F8AAE8F /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DEE35F03CA411ED206E40E65D433713F /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		DD6793BB67A84DE4163E9ADB67D65286 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00AF275DA5ABB7EB0BC166B8BA6C1FA0 /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDD5F191B3876846DB4499E244143E61 /* Pods-MobSense */ = {
+			isa = PBXGroup;
+			children = (
+				A74196D15B39FC72BF243A7D9B14FEBB /* Pods-MobSense-acknowledgements.markdown */,
+				10036C85D4C7C3D82DF4489ABA00A8D8 /* Pods-MobSense-acknowledgements.plist */,
+				C580471B4EA456696E102F6C882AA46E /* Pods-MobSense-dummy.m */,
+				ECC2557A7D7186B33EBE2DDF0B91C98A /* Pods-MobSense-frameworks.sh */,
+				40793E3AFA0798786622F4EDD2FA9637 /* Pods-MobSense-resources.sh */,
+				B17B38BCF54CE0512B87104EC489A853 /* Pods-MobSense.debug.xcconfig */,
+				FDDF2D7EB3ABEA43D380D1C6430AC351 /* Pods-MobSense.release.xcconfig */,
+			);
+			name = "Pods-MobSense";
+			path = "Target Support Files/Pods-MobSense";
+			sourceTree = "<group>";
+		};
+		DEE35F03CA411ED206E40E65D433713F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD1783BB77D49256B458854EC387ECE /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1449E52B47A3B977294F9502631F3F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F5A60ACAE85D0FB40DE122972A544 /* MMDrawerController+Storyboard.xcconfig */,
+				431AB88FF3B2FC8EA05647A44AFDCB79 /* MMDrawerController+Storyboard-dummy.m */,
+				AC1D5968432A504497C13EF431FB34AF /* MMDrawerController+Storyboard-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMDrawerController+Storyboard";
+			sourceTree = "<group>";
+		};
+		FCBFA9ED0D501187626FCFE051143D82 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				1A1177DC7C27CD718D592B4AE17B6271 /* Analytics */,
+				17324193D3D23B8634A65A04B9F6F77C /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		FDB8E0BA70918614F7A7CE30B9F1AB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A888DEFDA22DCED59107380310120 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B25487E91D6C44A5A7199EDA11CF451 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7F170BE65EFFD69B5986DB55C1920A /* MMDrawerBarButtonItem.h in Headers */,
+				947575549E0193C1A5A2379EA9D95D46 /* MMDrawerController+Subclass.h in Headers */,
+				F733730F57E794BCFB4B18DC00E2FF9B /* MMDrawerController.h in Headers */,
+				1A378C41991F5219E9959E3A250E9A03 /* MMDrawerVisualState.h in Headers */,
+				984DD4BA68A399F50B9D7849E72385F8 /* UIViewController+MMDrawerController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F7BD40E11FC4A10202B574E2DAAFDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969242845CEC4CE6B42B4FBC4FEC88F2 /* MMDrawerController+Storyboard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00EFA61CB6BE390356A2D41B9BACC8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC5AACA78908ED08FB968E551C9E907 /* NSData+NXOAuth2.h in Headers */,
+				DB3B2657B0DBB2EC8F74D1A602582051 /* NSString+NXOAuth2.h in Headers */,
+				B23A00A5ED73210D3BC7AA7F21EA9B1C /* NSURL+NXOAuth2.h in Headers */,
+				9EB5C021CD0890A0F1A01E3BF4093E2B /* NXOAuth2.h in Headers */,
+				A464A7711317466CE3622FFF75923DD4 /* NXOAuth2AccessToken.h in Headers */,
+				E66FF19936CA6EF7FF4BF3E13EE0D7D7 /* NXOAuth2Account+Private.h in Headers */,
+				1FC05C99BA48029B527FC7482BBA87D5 /* NXOAuth2Account.h in Headers */,
+				C35FB79A52A53C86EC1AEE2BF99712CF /* NXOAuth2AccountStore.h in Headers */,
+				CDC229FCDA668D0077958EB1B48C03D7 /* NXOAuth2Client.h in Headers */,
+				DC259A831AAD609D68A368E16228D4F5 /* NXOAuth2ClientDelegate.h in Headers */,
+				D48FA58A38ADC8CAF616EF9A472581E9 /* NXOAuth2Connection.h in Headers */,
+				1D56CA0D7139A4028B93CA7E074AEDDF /* NXOAuth2ConnectionDelegate.h in Headers */,
+				006CA7289952B00BA727BEF299ECE8BD /* NXOAuth2Constants.h in Headers */,
+				44F191740E27CCCE532A4BF5E62318C4 /* NXOAuth2FileStreamWrapper.h in Headers */,
+				A2CA9E6B2BDCF663BE218A1FE2F00269 /* NXOAuth2PostBodyPart.h in Headers */,
+				D27B1021ED5A281761C33D770E16A58D /* NXOAuth2PostBodyStream.h in Headers */,
+				45995A1C9596908132B5FC22E41B6821 /* NXOAuth2Request.h in Headers */,
+				8E0647A6DE92E993472445D8A9A31410 /* NXOAuth2TrustDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E85AABA23B5E543708FA4E03130F831 /* NXOAuth2Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C89A8A53A46D3DEF96F80C4034490CA4 /* Build configuration list for PBXNativeTarget "NXOAuth2Client" */;
+			buildPhases = (
+				28A89D93FC444A6217968F7769FA4266 /* Sources */,
+				BE98135A552FC71BF990DB90C060E208 /* Frameworks */,
+				E00EFA61CB6BE390356A2D41B9BACC8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXOAuth2Client;
+			productName = NXOAuth2Client;
+			productReference = 7421C37D39C7943C39D70AD538B3B35F /* libNXOAuth2Client.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		550F7EEAEEA17E3F92C873912E23B01C /* MMDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BCBDE524BD4EFDC051B5AD1A976D69B /* Build configuration list for PBXNativeTarget "MMDrawerController" */;
+			buildPhases = (
+				43C420DC99D22058656D93AA1E317201 /* Sources */,
+				C81EA9947F4EA889C80E0571F51007C3 /* Frameworks */,
+				6B25487E91D6C44A5A7199EDA11CF451 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerController;
+			productName = MMDrawerController;
+			productReference = F739253D72E9E07F0D157D3F84E11413 /* libMMDrawerController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C83DC0B4881D58A9555C25FA8291CA5F /* MMDrawerController+Storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091E8692B84B2E6DE75598A6371C61EC /* Build configuration list for PBXNativeTarget "MMDrawerController+Storyboard" */;
+			buildPhases = (
+				B9773AC909D7BC75EABC1A1A2741F0EF /* Sources */,
+				FB07A9B553C787BDB063390BF3439713 /* Frameworks */,
+				74F7BD40E11FC4A10202B574E2DAAFDE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A709274CE79FA3065567B585CC38D44C /* PBXTargetDependency */,
+			);
+			name = "MMDrawerController+Storyboard";
+			productName = "MMDrawerController+Storyboard";
+			productReference = 8EC54881CC89F303AA65566312F7A3EF /* libMMDrawerController+Storyboard.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD6EB27F3C240BADB9898E21A8E63684 /* Pods-MobSense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61727BB3E587F458DEA80802FF56ADF2 /* Build configuration list for PBXNativeTarget "Pods-MobSense" */;
+			buildPhases = (
+				B3026DEA5E02F93CE0393EAA8983C7ED /* Sources */,
+				F91A3DB6ECF03D261C6FDF9FBE80F94D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EEB6466244C9D6B8FCC58E7FDDB5D9A /* PBXTargetDependency */,
+				5D3831476E8CA66DA602D8CA9BA0943D /* PBXTargetDependency */,
+				E03535FD9898503126674F9867AFBE3A /* PBXTargetDependency */,
+			);
+			name = "Pods-MobSense";
+			productName = "Pods-MobSense";
+			productReference = 1970D9107EBD7A1369BEE971205014B2 /* libPods-MobSense.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AD045CAAEF9380DDDC33DFFA51B625DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				550F7EEAEEA17E3F92C873912E23B01C /* MMDrawerController */,
+				C83DC0B4881D58A9555C25FA8291CA5F /* MMDrawerController+Storyboard */,
+				1E85AABA23B5E543708FA4E03130F831 /* NXOAuth2Client */,
+				FD6EB27F3C240BADB9898E21A8E63684 /* Pods-MobSense */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28A89D93FC444A6217968F7769FA4266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496F81C0BF46852BDB2FF6DD0613A705 /* NSData+NXOAuth2.m in Sources */,
+				9182B36F359CE9F54AD3CD24BE93CBC5 /* NSString+NXOAuth2.m in Sources */,
+				2F603E30DC05C00DA356E6A85631BB91 /* NSURL+NXOAuth2.m in Sources */,
+				F61B50E72560137C1BAB08BB5E0F704B /* NXOAuth2AccessToken.m in Sources */,
+				876B49C130BA2283A8A226A296C950F3 /* NXOAuth2Account.m in Sources */,
+				0992373E828319E84CF32CA572BA3877 /* NXOAuth2AccountStore.m in Sources */,
+				43E283C47E79FE66D338B3049661CEE8 /* NXOAuth2Client-dummy.m in Sources */,
+				D6DF5A496FD858DE4036ACE9A912C895 /* NXOAuth2Client.m in Sources */,
+				67B47E511DCA3A06974DBCFE2B65D012 /* NXOAuth2Connection.m in Sources */,
+				F80352DA4E8B5745EFBBAE0A619D62CD /* NXOAuth2Constants.m in Sources */,
+				3AE3D4CD9960B3471E2E445470807E92 /* NXOAuth2FileStreamWrapper.m in Sources */,
+				AB7A92BC0570218D33CB991B74709C56 /* NXOAuth2PostBodyPart.m in Sources */,
+				198F8CB2EB0FD8A76BB8F827216B6B77 /* NXOAuth2PostBodyStream.m in Sources */,
+				29586E6E3C8D6F62D117FA1684C911AF /* NXOAuth2Request.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C420DC99D22058656D93AA1E317201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529A38EA9243FD532B23CE6731C41062 /* MMDrawerBarButtonItem.m in Sources */,
+				6DCAAD460D5EDE19E9C93E52945F9D4B /* MMDrawerController-dummy.m in Sources */,
+				FB8782C801FCC735C4CAED59846EFACF /* MMDrawerController.m in Sources */,
+				706A26834B840DE5BD0267E5B501981C /* MMDrawerVisualState.m in Sources */,
+				6B90CF1457514AE8D0945B49D8D0F5D7 /* UIViewController+MMDrawerController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3026DEA5E02F93CE0393EAA8983C7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F67162BDB78DF5A6C73F9A13998557 /* Pods-MobSense-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9773AC909D7BC75EABC1A1A2741F0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF167054DA36AA2EE9A4F79A13C89BB1 /* MMDrawerController+Storyboard-dummy.m in Sources */,
+				64A7141483D4B0EEBA163A376FBA02BE /* MMDrawerController+Storyboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D3831476E8CA66DA602D8CA9BA0943D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MMDrawerController+Storyboard";
+			target = C83DC0B4881D58A9555C25FA8291CA5F /* MMDrawerController+Storyboard */;
+			targetProxy = 7C42088E81B36A287557DA335355855C /* PBXContainerItemProxy */;
+		};
+		6EEB6466244C9D6B8FCC58E7FDDB5D9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = 550F7EEAEEA17E3F92C873912E23B01C /* MMDrawerController */;
+			targetProxy = 7F6B1D28AE2F7C601F17AF0763B9BF99 /* PBXContainerItemProxy */;
+		};
+		A709274CE79FA3065567B585CC38D44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMDrawerController;
+			target = 550F7EEAEEA17E3F92C873912E23B01C /* MMDrawerController */;
+			targetProxy = BD579DDD628954F955745D8DC77FDE3E /* PBXContainerItemProxy */;
+		};
+		E03535FD9898503126674F9867AFBE3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NXOAuth2Client;
+			target = 1E85AABA23B5E543708FA4E03130F831 /* NXOAuth2Client */;
+			targetProxy = 42F932F34D70D64F199E285E19E5B9F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052F2C2C4B91DF6734432433477D7C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4F5A60ACAE85D0FB40DE122972A544 /* MMDrawerController+Storyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		13BE17F59AFBF2421EE6EFEBE593BF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4F5A60ACAE85D0FB40DE122972A544 /* MMDrawerController+Storyboard.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController+Storyboard/MMDrawerController+Storyboard-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14D6710D77F47FD784974B04DF1182DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDDF2D7EB3ABEA43D380D1C6430AC351 /* Pods-MobSense.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		567FFF9224EE660C697B0A2AADD1742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B17B38BCF54CE0512B87104EC489A853 /* Pods-MobSense.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7211004ECA5F41634A6E3FC44DDB79B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13022E9D4494324091A2BCC10710A60 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B505313E6C7AE3F141BB546A2CD0DFA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D476009F6DFA65E3E9759EC9D8F6163 /* NXOAuth2Client.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NXOAuth2Client/NXOAuth2Client-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C3245C943AA167359F84CA1846E50BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D476009F6DFA65E3E9759EC9D8F6163 /* NXOAuth2Client.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NXOAuth2Client/NXOAuth2Client-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F4071D599C676E289A731E8255247E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13022E9D4494324091A2BCC10710A60 /* MMDrawerController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MMDrawerController/MMDrawerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091E8692B84B2E6DE75598A6371C61EC /* Build configuration list for PBXNativeTarget "MMDrawerController+Storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13BE17F59AFBF2421EE6EFEBE593BF26 /* Debug */,
+				052F2C2C4B91DF6734432433477D7C5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61727BB3E587F458DEA80802FF56ADF2 /* Build configuration list for PBXNativeTarget "Pods-MobSense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567FFF9224EE660C697B0A2AADD1742F /* Debug */,
+				14D6710D77F47FD784974B04DF1182DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BCBDE524BD4EFDC051B5AD1A976D69B /* Build configuration list for PBXNativeTarget "MMDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4071D599C676E289A731E8255247E59 /* Debug */,
+				7211004ECA5F41634A6E3FC44DDB79B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C89A8A53A46D3DEF96F80C4034490CA4 /* Build configuration list for PBXNativeTarget "NXOAuth2Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B505313E6C7AE3F141BB546A2CD0DFA8 /* Debug */,
+				C3245C943AA167359F84CA1846E50BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
